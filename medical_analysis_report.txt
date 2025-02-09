@@ -1,10 +1,11 @@
+
 MEDICAL DATA ANALYSIS REPORT
-============================
+============================================================
 
 STATISTICAL SUMMARIES
-
-Systolic Blood Pressure:
-count     20.000000
+---------------------
+1. Systolic Blood Pressure:
+   • Average: count     20.000000
 mean     132.300000
 std       22.280745
 min       98.000000
@@ -13,9 +14,9 @@ min       98.000000
 75%      152.250000
 max      164.000000
 Name: Systolic, dtype: float64
-
-Diastolic Blood Pressure:
-count     20.000000
+   
+2. Diastolic Blood Pressure:
+   • Average: count     20.000000
 mean      88.500000
 std       16.165265
 min       63.000000
@@ -24,9 +25,9 @@ min       63.000000
 75%      101.000000
 max      119.000000
 Name: Diastolic, dtype: float64
-
-Heart Rate:
-count     20.000000
+   
+3. Heart Rate:
+   • Average: count     20.000000
 mean      96.450000
 std       19.129682
 min       60.000000
@@ -36,8 +37,8 @@ min       60.000000
 max      118.000000
 Name: HeartRate, dtype: float64
 
-
 ABNORMAL READINGS
+-----------------
 Patient P0001 (2023-10-28 06:52:00): Systolic BP 143 (Normal: 90-130)
 Patient P0001 (2023-10-28 06:52:00): Heart Rate 101 (Normal: 60-100)
 Patient P0002 (2023-09-23 18:03:00): Heart Rate 117 (Normal: 60-100)
@@ -74,6 +75,9 @@ Patient P0019 (2023-07-04 04:26:00): Diastolic BP 81 (Normal: 60-80)
 Patient P0019 (2023-07-04 04:26:00): Heart Rate 105 (Normal: 60-100)
 Patient P0020 (2023-03-12 12:03:00): Diastolic BP 88 (Normal: 60-80)
 
-
 TRENDS OVER TIME
+----------------
 No significant trends detected.
+
+============================================================
+Report generated on: 2025-02-09 15:13:11
